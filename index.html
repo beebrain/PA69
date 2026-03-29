@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PA Portfolio - นางสาวพอใจ สุขหา</title>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">PA PORTFOLIO</div>
+            <ul>
+                <li><a href="#hero">หน้าแรก</a></li>
+                <li><a href="#teaching">ตารางสอน</a></li>
+                <li><a href="#pa-tasks">ข้อตกลง PA</a></li>
+                <li><a href="#challenge">ประเด็นท้าทาย</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <div class="profile-img">
+                <div class="img-placeholder">PJ</div>
+            </div>
+            <h1>นางสาวพอใจ สุขหา</h1>
+            <p class="position">ตำแหน่ง ครู วิทยฐานะ ครูชำนาญการพิเศษ</p>
+            <p class="school">โรงเรียนเทศบาลท่าอิฐ สังกัดกองการศึกษา เทศบาลเมืองอุตรดิตถ์</p>
+            <div class="badge-container">
+                <span class="badge">ปีงบประมาณ 2568</span>
+                <span class="badge">Active Learning</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="teaching" class="section">
+        <h2 class="section-title">ภาระงานการสอน</h2>
+        <div class="tabs">
+            <button class="tab-btn active" onclick="openTab(event, 'term2-2567')">ภาคเรียนที่ 2/2567</button>
+            <button class="tab-btn" onclick="openTab(event, 'term1-2568')">ภาคเรียนที่ 1/2568</button>
+        </div>
+
+        <div id="term2-2567" class="tab-content active">
+            <div class="teaching-grid">
+                <div class="teaching-card">
+                    <h3>การงานอาชีพ (ป.6)</h3>
+                    <p class="hours">8 ชม./สัปดาห์</p>
+                </div>
+                <div class="teaching-card">
+                    <h3>การต่อต้านการทุจริต (ป.6)</h3>
+                    <p class="hours">8 ชม./สัปดาห์</p>
+                </div>
+                <div class="teaching-card">
+                    <h3>คณิตสร้างสรรค์ (ป.6)</h3>
+                    <p class="hours">2 ชม./สัปดาห์</p>
+                </div>
+                <div class="teaching-card">
+                    <h3>ชมรม (ป.6)</h3>
+                    <p class="hours">1 ชม./สัปดาห์</p>
+                </div>
+                <div class="teaching-card">
+                    <h3>กิจกรรมยุวกาชาด (ป.6)</h3>
+                    <p class="hours">1 ชม./สัปดาห์</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="term1-2568" class="tab-content">
+            <div class="teaching-grid">
+                <div class="teaching-card">
+                    <h3>การงานอาชีพ (ป.6)</h3>
+                    <p class="hours">8 ชม./สัปดาห์</p>
+                </div>
+                <div class="teaching-card">
+                    <h3>วิถีท่าอิฐ ชีวิตพอเพียง (ป.6)</h3>
+                    <p class="hours">4 ชม./สัปดาห์</p>
+                </div>
+                <div class="teaching-card">
+                    <h3>คณิตสร้างสรรค์ (ป.6)</h3>
+                    <p class="hours">1 ชม./สัปดาห์</p>
+                </div>
+                <div class="teaching-card">
+                    <h3>ชมรม (ป.6)</h3>
+                    <p class="hours">1 ชม./สัปดาห์</p>
+                </div>
+                <div class="teaching-card">
+                    <h3>กิจกรรมยุวกาชาด (ป.6)</h3>
+                    <p class="hours">1 ชม./สัปดาห์</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="pa-tasks" class="section pink-bg">
+        <h2 class="section-title">ข้อตกลงในการพัฒนางาน (PA)</h2>
+        <div class="pa-grid">
+            <div class="pa-card">
+                <div class="pa-icon">📚</div>
+                <h3>ด้านการจัดการเรียนรู้</h3>
+                <ul>
+                    <li>สร้างและพัฒนาหลักสูตร</li>
+                    <li>ออกแบบการจัดการเรียนรู้</li>
+                    <li>จัดกิจกรรมการเรียนรู้ Active Learning</li>
+                    <li>สร้างและพัฒนาสื่อ นวัตกรรม</li>
+                </ul>
+            </div>
+            <div class="pa-card">
+                <div class="pa-icon">🤝</div>
+                <h3>ด้านการส่งเสริมและสนับสนุน</h3>
+                <ul>
+                    <li>จัดทำข้อมูลสารสนเทศนักเรียน</li>
+                    <li>ระบบดูแลช่วยเหลือนักเรียน (เยี่ยมบ้าน)</li>
+                    <li>ปฏิบัติงานวิชาการและงานอื่นๆ</li>
+                    <li>ประสานความร่วมมือกับผู้ปกครอง</li>
+                </ul>
+            </div>
+            <div class="pa-card">
+                <div class="pa-icon">🌟</div>
+                <h3>ด้านการพัฒนาตนเองและวิชาชีพ</h3>
+                <ul>
+                    <li>พัฒนาตนเองอย่างเป็นระบบและต่อเนื่อง</li>
+                    <li>มีส่วนร่วมในการแลกเปลี่ยนเรียนรู้ทางวิชาชีพ (PLC)</li>
+                    <li>นำความรู้มาพัฒนาการจัดการเรียนรู้</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="challenge" class="section">
+        <h2 class="section-title">ประเด็นท้าทาย (Challenge)</h2>
+        <div class="challenge-container">
+            <div class="challenge-text">
+                <h3>เรื่อง: การพัฒนาการจัดการเรียนรู้เรื่อง ปลูกพืชผักสวนครัวในชีวิตประจำวัน</h3>
+                <p class="description">ด้วยกระบวนการฝึกปฏิบัติจริง สำหรับนักเรียนชั้นประถมศึกษาปีที่ 6</p>
+                <div class="stats">
+                    <div class="stat-item">
+                        <span class="stat-num">80%</span>
+                        <span class="stat-label">เชิงปริมาณ: นักเรียนมีความรู้ผ่านเกณฑ์</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-num">ดีมาก</span>
+                        <span class="stat-label">เชิงคุณภาพ: ทักษะการปฏิบัติงานอาชีพ</span>
+                    </div>
+                </div>
+            </div>
+            <div class="challenge-image">
+                <div class="img-placeholder"><i class="fas fa-seedling"></i> 🌿</div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 PA Digital Portfolio - นางสาวพอใจ สุขหา</p>
+        <p>โรงเรียนเทศบาลท่าอิฐ สังกัดกองการศึกษา เทศบาลเมืองอุตรดิตถ์</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
